@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/openscience favicon.png">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo_articulo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/51a3936305.js" crossorigin="anonymous"></script>
+    <title>Publish with us</title>
+</head>
+<body>
+
+    <header>
+        <div id="logo_login">
+            <div id="logo"> <a href="../index.html"> <img src="../img/logo editando(color cambiado reescalado).png" alt="logo"></a> </div>
+            <div id="busq_log">
+                <ul>
+                    <li><a class="subrayado" href="#">Search</a></li>
+                    <li><a class="subrayado" href="log-in.html">Login</a></li>
+                </ul>
+                
+            </div>
+            <input type="checkbox" id="hamburger-input" class="burger-shower" />
+            <label id="hamburger-menu" for="hamburger-input">
+                <nav id="sidebar-menu">
+                    <ul>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="log-in.html">Login</a></li>
+                        <li><a href="explore.html">Explore</a></li>
+                        <li><a href="Site_under_construction.html">Papers</a></li>
+                        <li><a href="Site_under_construction.html">Forums</a></li>
+                        <li><a href="publish-with-us.html">Publish with us</a></li>
+                        <li><a href="abous-us.html">About us</a></li>
+                        <li><a href="donatios.html">Support us</a></li>
+                    </ul>
+                </nav>
+            </label>
+        </div>
+        
+        <div id="barra_navegacion">
+            <navbar id="nav_principal">
+                <ul >
+                    <li><a class="subrayado" href="explore.html">Explore</a></li>
+                    <li><a class="subrayado" href="Site_under_construction.html">Papers</a></li>
+                    <li><a class="subrayado" href="Site_under_construction.html">Forums</a></li>
+                    <li><a class="subrayado" href="publish-with-us.html">Publish with us</a></li>
+                </ul>
+            </navbar>
+
+            <navbar id="supp_sub">
+                <ul>
+                    <li><a class="subrayado" href="abous-us.html">About us</a></li>
+                    <li><a class="subrayado" href="donatios.html">Support us</a></li>
+                </ul>
+            </navbar>
+        </div>
+
+        
+        
+    </header>
+    
+
+    <section class="publish_with_us_section">
+        <h1>Thank you for considering publishing with us!</h1>
+        <p>We kindly ask you for submitting your personal or laboratory information, type of publish you are interested in and a brief explanation of your work</p>
+        <p>We will reach you to cordinate the process after we review it.</p>
+        <p>If you would like to join Open Science's group, you can reach us <a class="here" href="#">here</a></p>
+        
+        <div class="formulario_publish">
+            <form action="" name="formulario" method="post">
+                <p><label for="name">Name: <input type="text" id="name"></label></p>
+            <div class="error" id="noname"></div>    
+                <p><label for="last_name">Last Name: <input type="text" id="last_name"></label></p>
+            <div class="error" id="nolastname"></div>
+                <p><label for="ocupation">Ocupation: <input type="text" id="ocupation"></label></p>
+            <div class="error" id="noocupation"></div>    
+                <p><label for="email">Email: <input type="text" id="email"></label></p>
+            <div class="error" id="noemail"></div>      
+                <p><label for="confirm_email">Confirm email: <input type="text" id="confirm_email"></label></p>
+            <div class="error" id="differentemail"></div>    
+                <p><label for="phone">Phone number: <input type="text" id="phone" placeholder="ej: +5491148094126"></label></p>
+            <div class="error" id="nophone"></div>    
+                <p><label for="lab_info">Lab info: <input type="text" id="lab_info"></label></p>
+                <p>Type of article:</p>
+                <input type="radio" name="article_type" id="paper" value="Paper">Paper
+                <input type="radio" name="article_type" id="news" value="News">News article
+                <input type="radio" name="article_type" id="commentary" value="Commentary">Commentary
+            <div class="error" id="noarticle"></div>    
+                <p>A brief explanation or introduction to your work: </p>
+                <p><label for="introduction"><textarea id="introduction" cols="150" rows="20"></textarea> </label> </p>
+            <div class="error" id="noexplanation"></div>    
+                <input type="submit" id="btn" name="btn" value="send">
+
+
+
+
+
+
+            </form>
+        </div>
+
+    </section>
+
+    <aside id="relacionados">
+
+    </aside>
+
+    <footer>
+        <div id="info_creador">
+            <p>Copyright © 2022 Diplococcus </p>
+            <p>Creator: Augusto Mardones</p>
+            <p>Contact info: augusmardo@gmail.com</p>
+        </div>
+        <div id="red_contacto">
+            <a href="#" class="fa-brands fa-facebook"></a>
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-youtube"></a>
+            <p><a href="#">Contact us</a> </p>
+            <p><a href="#">Support us</a> </p>
+        </div>
+
+    </footer>
+
+    <script src="../js/validacion.js"></script>
+</body>
+</html>

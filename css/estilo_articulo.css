@@ -1,0 +1,85 @@
+
+.articulo h1{
+    font-size:50px;
+}
+.articulo h2{
+    font-size:32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.articulo p{
+    font-size:20px;
+}
+
+.donation h1,h2{
+    font-size:50px;
+    font-family:'Bebas Neue', 'Times New Roman', Times, serif;
+}
+
+
+.donation p, .donation li{
+    font-size:18px;
+}
+
+#donate-button{
+    width: 50%;
+    height:auto;
+    margin:auto;
+}
+
+
+.publish_with_us_section h1{
+    font-size:50px;
+    font-family:'Bebas Neue', 'Times New Roman', Times, serif;
+}
+.publish_with_us_section p{
+    font-size:18px;
+}
+
+.newsletter h1{
+    font-size:30px;
+    font-family:'Bebas Neue', 'Times New Roman', Times, serif;
+}
+
+.here{
+    text-decoration: underline;
+    color: #1c476f;
+    
+}
+
+.error{
+    color:red;
+}
+
+textarea{
+    box-sizing:border-box;
+    width:100%;
+}
+
+@media all and (min-width: 0) and (max-width: 900px){
+    .donation, .articulo, .newsletter{
+        width:85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .publish_with_us_section{
+        width: 85%;
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+
+   
+} 
+
+@media all and (min-width: 500px) and (max-width: 900px){
+    #donate-button{
+        width:60%;
+    }
+}
+
+@media all and (min-width: 0) and (max-width: 500px){
+    #donate-button{
+        width:80%;
+    }
+}
